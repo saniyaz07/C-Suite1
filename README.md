@@ -61,6 +61,8 @@ print(class_report)
 
 output:-
 Accuracy: 93.77%
+
+
 Confusion Matrix:
 [[  0   8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
  [  2 115   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
@@ -79,6 +81,8 @@ Confusion Matrix:
  [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   5   0   0]
  [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  31   0]
  [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2]]
+
+ 
 Classification Report:
               precision    recall  f1-score   support
 
@@ -86,6 +90,7 @@ Classification Report:
            1       0.93      0.98      0.96       117
            2       0.33      0.33      0.33         3
 ...
+
 accuracy                            0.94       321
 macro avg       0.65      0.66      0.66       321
 weighted avg       0.91      0.94      0.93       321
