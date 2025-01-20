@@ -14,8 +14,13 @@ Methods of Data Collection: 1. Spotify Web API: The data was retrieved using the
 Tools Used: - Spotipy: Python library to interact with the Spotify Web API. - Pandas: Python library used to organize and structure the collected data. - CSV: The final dataset was saved in CSV format for further analysis.
 
 
-Data Collection Code: The data was collected using the following Python code:
+code for visualization :
+import matplotlib.pyplot as plt
+xgb.plot_importance(model)
+plt.show()
+![image](https://github.com/user-attachments/assets/27f423a5-448d-432a-99d4-1d8a2ee8a7a7)
 
+predective model:
 import xgboost as xgb
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
