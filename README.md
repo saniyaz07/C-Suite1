@@ -87,7 +87,7 @@ Classification Report:
 
               precision    recall  f1-score   support
 
-           0       0.87      0.91      .90         8
+           0       0.87      0.91      0.90         8
            1       0.93      0.98      0.96       117
            2       0.33      0.33      0.33         3
 ...
